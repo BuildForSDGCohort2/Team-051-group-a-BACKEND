@@ -4,7 +4,9 @@
   "description": "The app helps and allows Market trader, Farmer and Small business owner who are the member of these Multiple-purpose cooperative societies, to track their money realtime and carry out financial transactions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND/issues"
   },
-  "homepage": "https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND#readme"
+  "homepage": "https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
