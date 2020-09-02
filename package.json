@@ -1,0 +1,24 @@
+{
+  "name": "minibank-app-bankend",
+  "version": "1.0.0",
+  "description": "The app helps and allows Market trader, Farmer and Small business owner who are the member of these Multiple-purpose cooperative societies, to track their money realtime and carry out financial transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND.git"
+  },
+  "keywords": [
+    "minibank",
+    "fintech",
+    "build4sdg"
+  ],
+  "author": "michio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/Team-051-group-a-BACKEND#readme"
+}
