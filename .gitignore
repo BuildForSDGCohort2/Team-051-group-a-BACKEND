@@ -23,3 +23,6 @@ db.sqlite
 
 # SQL files
 models/*.sql
+
+# Remove list rule (Codacy)
+.eslintrc.json
