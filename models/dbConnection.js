@@ -10,8 +10,8 @@ function createDBConnection() {
         },
         (err, res) => {
             if (err) {
-                console.log(err.message);
-                return console.log("You need to set the db connection string in your environment file");
+                console.log(err.message, "You need to set the db connection string in your environment file");
+                return;
             }
             console.log("DB connected successfully!");
         })
