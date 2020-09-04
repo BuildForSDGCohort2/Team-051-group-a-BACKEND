@@ -1,7 +1,7 @@
 const {
     Schema,
     model,
-} = require('mongoose');
+} = require("mongoose");
 
 
 const userSchema = new Schema({
@@ -42,15 +42,15 @@ const userSchema = new Schema({
     }
 });
 
-userSchema.pre('save', function (next) {
+userSchema.pre("save", function (next) {
     const user = this;
-    if (user.isModified('password')) {
+    if (user.isModified("password")) {
         //   Encrypt password here
     } else {
-        next()
+        next();
     }
-})
+});
 
-const User = model('user', userSchema)
+const User = model("user", userSchema);
 
-module.exports = User
+module.exports = User;

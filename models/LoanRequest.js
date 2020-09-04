@@ -1,7 +1,7 @@
 const {
     Schema,
     model,
-} = require('mongoose');
+} = require("mongoose");
 
 
 const LoanRequestSchema = new Schema({
@@ -28,6 +28,6 @@ const LoanRequestSchema = new Schema({
     }
 });
 
-const User = model('loanRequest', LoanRequestSchema)
+const User = model("loanRequest", LoanRequestSchema);
 
-module.exports = User
+module.exports = User;

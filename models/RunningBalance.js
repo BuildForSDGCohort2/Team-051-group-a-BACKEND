@@ -1,7 +1,7 @@
 const {
     Schema,
     model,
-} = require('mongoose');
+} = require("mongoose");
 
 
 const runningBalanceSchema = new Schema({
@@ -27,6 +27,6 @@ const runningBalanceSchema = new Schema({
     }
 });
 
-const RunningBalance = model('runningBalance', runningBalanceSchema)
+const RunningBalance = model("runningBalance", runningBalanceSchema);
 
-module.exports = RunningBalance
+module.exports = RunningBalance;

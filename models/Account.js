@@ -1,7 +1,7 @@
 const {
     Schema,
     model,
-} = require('mongoose');
+} = require("mongoose");
 
 
 const accountSchema = new Schema({
@@ -27,6 +27,6 @@ const accountSchema = new Schema({
     }
 });
 
-const Account = model('account', accountSchema)
+const Account = model("account", accountSchema);
 
-module.exports = Account
+module.exports = Account;

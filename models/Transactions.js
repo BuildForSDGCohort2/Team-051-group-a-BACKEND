@@ -2,7 +2,7 @@ const {
     Schema,
     model,
     SchemaType,
-} = require('mongoose');
+} = require("mongoose");
 
 
 const transactionSchema = new Schema({
@@ -33,6 +33,6 @@ const transactionSchema = new Schema({
     }]
 });
 
-const Transaction = model('transactions', transactionSchema)
+const Transaction = model("transactions", transactionSchema);
 
-module.exports = Transaction
+module.exports = Transaction;
