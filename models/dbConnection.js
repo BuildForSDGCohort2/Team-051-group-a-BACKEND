@@ -14,7 +14,7 @@ function createDBConnection() {
                 return;
             }
             // console.log("DB connected successfully!");
-        })
+        });
 }
 
 module.exports = createDBConnection;
