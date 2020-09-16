@@ -2,6 +2,10 @@
 require("dotenv").config();
 
 const app = require("./app");
+const v1Routes = require('./routes/v1');
+
+// V1 routes.
+app.use("/api/v1", v1Routes);
 
 // this matches all routes and all methods
 app.use((req, res, next) => {
@@ -20,6 +24,7 @@ app.use((error, req, res, next) => {
     },
   });
 });
+
 
 app.set("port", process.env.PORT || 8600);
 /* eslint no-console: ["error", { allow: ["debug", "error"] }] */
